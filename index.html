@@ -433,21 +433,37 @@
                             
                                 <div class="contact_form-container">
                                     
-                                        <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+                                        <form name="contact" method="POST" netlify>
+                                        
+                                            
+                                            <input
+                                                type="text"
+                                                placeholder="Full Name"
+                                            />
+                                        
+                                        
+                                            <input
+                                                type="email"
+                                                placeholder="Email "
+                                            />
+                                        
+                                        
+                                            <input
+                                                type="text"
+                                                placeholder="Phone Number"
+                                            />
+                                        
+                                        
+                                            <input
+                                                type="text"
+                                                placeholder="Message"
+                                                class="message_input"
+                                            />
+                                        
+                                        <div class="btn-box">
+                                            <button type="submit">Send</button>
+                                        </div>
+                                        </form>
                                     </div>
                                 
                                 </div>
